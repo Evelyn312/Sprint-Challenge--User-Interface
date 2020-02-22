@@ -160,8 +160,15 @@ footer nav a {
     text-decoration: none;
     font-weight: bolder;
     color: black;
-    
+    transition-property: transform;
+        
 }
+.navbar .link:hover{
+    color: pink;
+    transform: rotate(360deg);
+
+}
+
 .banner{
     margin: 40px 0;
 }
@@ -205,28 +212,26 @@ footer nav a {
     margin: 20px 0;
     border-bottom: 1px dashed black;
 }
-.midPage1{
+.mid-page1{
     display: flex;
     margin: 30px 0;
 }
-.midPage1 .left,
-.midPage2 .left {
+.mid-page1 .left,
+.mid-page2 .left {
     border-bottom: 1px dashed black; 
     margin-right:25px;
 }
 
-.midPage1 .right,
-.midPage2 .right{
+.mid-page1 .right,
+.mid-page2 .right{
     border-bottom: 1px dashed black; 
 }
 
-.midPage2{
+.mid-page2{
     display: flex;
     margin: 30px 0;
-    /* border-bottom: 1px dashed black; */
 }
 .end{
-    /* border-bottom: 1px dashed black; */
     margin: 30px 0;
 }
 
@@ -241,8 +246,5 @@ button{
     background-color: white;
     border: 1px solid black;
     margin: 20px 0;
-
-
-
 }
 
