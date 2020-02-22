@@ -162,7 +162,7 @@ footer nav a {
     color: black;
     
 }
-.jumbo{
+.banner{
     margin: 40px 0;
 }
 .box1{
@@ -195,3 +195,54 @@ footer nav a {
 .box10{
     background-color: dodgerblue;
 }
+
+
+
+
+/* This is CSS for About Page: */
+
+.topPage{
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+.midPage1{
+    display: flex;
+    margin: 30px 0;
+}
+.midPage1 .left,
+.midPage2 .left {
+    border-bottom: 1px dashed black; 
+    margin-right:25px;
+}
+
+.midPage1 .right,
+.midPage2 .right{
+    border-bottom: 1px dashed black; 
+}
+
+.midPage2{
+    display: flex;
+    margin: 30px 0;
+    /* border-bottom: 1px dashed black; */
+}
+.end{
+    /* border-bottom: 1px dashed black; */
+    margin: 30px 0;
+}
+
+.left img,
+.right img {
+    width: 100%;
+}
+button{
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 0;
+
+
+
+}
+
