@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -144,3 +143,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+/* My CSS starts here. */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 40px 0;
+}
+.navbar .link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    transition-property: transform;
+        
+}
+.navbar .link:hover{
+    color: pink;
+    transform: rotate(360deg);
+
+}
+
+.banner{
+    margin: 40px 0;
+}
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color:gold;
+}
+.box3{
+    background-color: cadetblue;
+}
+.box4{
+    background-color:coral;
+}
+.box5{
+    background-color: crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color:darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
+
+
+
+/* This is CSS for About Page: */
+
+.topPage{
+    margin: 20px 0;
+    border-bottom: 1px dashed black;
+}
+.mid-page1{
+    display: flex;
+    margin: 30px 0;
+}
+.mid-page1 .left,
+.mid-page2 .left {
+    border-bottom: 1px dashed black; 
+    margin-right:25px;
+}
+
+.mid-page1 .right,
+.mid-page2 .right{
+    border-bottom: 1px dashed black; 
+}
+
+.mid-page2{
+    display: flex;
+    margin: 30px 0;
+}
+.end{
+    margin: 30px 0;
+}
+
+.left img,
+.right img {
+    width: 100%;
+}
+button{
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px 0;
+}
+
